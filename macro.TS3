@@ -1,0 +1,11 @@
+###############################################################################
+#ACTION SOURCE  DEST    PROTO   DEST    SOURCE  RATE    USER/
+#                               PORT(S) PORT(S) LIMIT   GROUP
+?COMMENT Teamspeak3
+PARAM   -       -       udp     9987
+PARAM   -       -       udp     9988
+PARAM	-	-	tcp	30033
+PARAM	-	-	tcp	41144
+?COMMENT
+
+

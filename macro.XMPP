@@ -1,0 +1,10 @@
+#
+###############################################################################
+#ACTION	SOURCE	DEST	PROTO	DEST	SOURCE	RATE	USER/
+#				PORT(S)	PORT(S)	LIMIT	GROUP
+?COMMENT ejabberd
+PARAM	-	-	tcp	5222
+PARAM	-	-	tcp	5269
+PARAM   -       -       tcp     5280
+PARAM   -       -       tcp     7777
+?COMMENT
