@@ -14,7 +14,7 @@
 #SOURCE		DEST		POLICY		LOG LEVEL	LIMIT:BURST
 $FW		net		ACCEPT
 #road		loc             ACCEPT
-net		all		DROP		info
+net		all		REJECT		info
 $FW		road		ACCEPT
 # The FOLLOWING POLICY MUST BE LAST
 all		all		REJECT		info
